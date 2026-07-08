@@ -1,0 +1,9 @@
+package com.example.orders;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.UUID;
+
+
+//Uso i metodi ereditati da JPARepository 
+public interface OrderRepository extends JpaRepository<Order, UUID> {
+}
